@@ -1,0 +1,16 @@
+TODO:
+ - More test cases and automation in running them (IORef->String trick).
+ - Support for named variables.
+ 
+SPECIFY:
+ - How to handle unit alternation f{o}o
+     * Treat it as var with 1 value (current case).
+     * Grouping construct (parse it as a GlobSeq) (not a var)
+
+ - Should we permit simple variable names $var instead of $(var)
+    (see parseGlobVarName)
+
+ - Should we leave anonymous variables unnamed?
+
+PROBLEMS:
+  * All largely resolved.
